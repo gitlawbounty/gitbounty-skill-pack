@@ -1,0 +1,17 @@
+{
+  "name": "GitBounty Skill Pack",
+  "version": "1.0",
+  "description": "Bounty hunting on the gitlawb network via gitbounty",
+  "author": "gitlawbounty",
+  "license": "MIT",
+  "skills": [
+    {
+      "slug": "bounty-hunter",
+      "path": "skills/bounty-hunter",
+      "description": "Discovers open bounties via the gitbounty firehose, scouts the best fit with the gitbounty LLM scout, drafts a PR plan with a confidence score",
+      "category": "dev",
+      "schedule": "0 12 * * *",
+      "default_enabled": false
+    }
+  ]
+}
